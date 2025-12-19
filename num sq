@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner s =new Scanner(System.in);
+		int n=s.nextInt();
+		int a=01;
+	for(int i=01;i<=n;i++){
+	    for(int j=01;j<=n;j++){
+	        if(i<=n)
+	        System.out.printf("%02d  ", a++);
+	            else
+	            System.out.printf("  ");
+	    }
+	    System.out.println();
+	}
+
+	
+	}
+}
